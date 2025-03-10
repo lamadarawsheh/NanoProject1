@@ -1,0 +1,178 @@
+.nav {
+  position: absolute;
+  top: 0.5rem;
+  right: 1.19rem;
+}
+.nav-menu {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  display: block;
+  text-align: center;
+}
+.hero-img {
+  display: block;
+  height: 37.5rem;
+  width: 100vw;
+}
+.hero-info h1 {
+  font-size: 3rem;
+}
+
+.hero-info button {
+  width: 12.5rem;
+  padding: 10px;
+  align-self: center;
+  background-color: #fec76f;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+}
+
+.hero-info {
+  color: white;
+  padding: 10px;
+  width: 25rem;
+  height: auto;
+  position: absolute;
+  top: 15.625rem;
+  right: 5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.home-main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 3% 10%;
+}
+
+h3 {
+  padding: 10px 0;
+}
+.services-section,
+.about-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.card-item {
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 15px #6e79a3;
+  gap: 5px;
+  padding: 10px;
+}
+.card-item img {
+  width: 50%;
+  height: 50%;
+}
+.card-item i {
+  font-size: 2rem;
+  width: 50%;
+  height: 50%;
+  align-self: center;
+  text-align: center;
+  color: #fec76f;
+  background-color: #11143e;
+  border-radius: 50%;
+  align-content: center;
+}
+.card-item span {
+  font-size: 2rem;
+}
+.card-item p {
+  flex-grow: 1;
+  font-size: small;
+  text-align: center;
+}
+.figure {
+  width: 50%;
+  height: 40%;
+  float: left;
+  margin: 0px 20px 20px 0px;
+}
+.article-img {
+  width: 100%;
+}
+article h4 {
+  margin-bottom: 20px;
+}
+
+article p {
+  margin-bottom: 20px;
+  line-height: 2.1;
+  font-size: smaller;
+}
+.italic-text {
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .hero-info {
+    max-width: 70%;
+    top: 10rem;
+    right: 10%;
+  }
+
+  .hero-info h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-info button {
+    width: 80%;
+  }
+  .figure {
+    width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-info {
+    max-width: 90%;
+    top: 10rem;
+    right: 5%;
+  }
+
+  .hero-info h1 {
+    font-size: 2rem;
+  }
+  .hero-info h2 {
+    font-size: 1.4rem;
+  }
+
+  .hero-info button {
+    width: 60%;
+    font-size: 0.9rem;
+  }
+  .cards-container {
+    justify-content: center;
+  }
+  .figure {
+    width: 100%;
+  }
+}

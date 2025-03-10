@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: black;
+  font-size: small;
+  text-align: center;
+  padding: 10px;
+  color: #6e79a3;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #060606;
+  color: #fbfafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+}
